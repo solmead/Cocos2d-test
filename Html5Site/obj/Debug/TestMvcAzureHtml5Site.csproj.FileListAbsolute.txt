@@ -1,0 +1,10 @@
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\bin\TestMvcAzureHtml5Site.dll
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\bin\TestMvcAzureHtml5Site.pdb
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\bin\SquishIt.Framework.dll
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\bin\AjaxMin.dll
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\bin\Yahoo.Yui.Compressor.dll
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\bin\dotless.Core.dll
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\bin\EcmaScript.NET.modified.dll
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\obj\Debug\TestMvcAzureHtml5Site.dll
+C:\Users\cpowell\documents\visual studio 2010\Projects\TestMvcAzureSite\TestMvcAzureHtml5Site\obj\Debug\TestMvcAzureHtml5Site.pdb

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12520F34-500F-4765-B2E3-9FD76C729904}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestMvcAzureHtml5Site</RootNamespace>
+    <AssemblyName>TestMvcAzureHtml5Site</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataHandling">
+      <HintPath>..\..\..\..\..\..\..\Programming\Libraries\DataHandling\bin\Debug\DataHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="dotless.Core, Version=1.2.1.0, Culture=neutral, PublicKeyToken=96b446c9e63eae34, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\dotless.1.2.1.0\lib\dotless.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RouteMagic">
+      <HintPath>..\packages\RouteMagic.1.2\lib\net40\RouteMagic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages" />
+    <Reference Include="System.Web.Helpers" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="apple-touch-icon-114x114-precomposed.png" />
+    <Content Include="apple-touch-icon-57x57-precomposed.png" />
+    <Content Include="apple-touch-icon-72x72-precomposed.png" />
+    <Content Include="apple-touch-icon-precomposed.png" />
+    <Content Include="assets\ball %282%29.png" />
+    <Content Include="assets\ball.png" />
+    <Content Include="assets\Box1.png" />
+    <Content Include="assets\ClearGreenButton.png" />
+    <Content Include="assets\crate.jpg" />
+    <Content Include="assets\DPad.png" />
+    <Content Include="assets\Ground.png" />
+    <Content Include="assets\GroundGreenBack.png" />
+    <Content Include="assets\LegoManTurn.png" />
+    <Content Include="assets\LegoManWalk.png" />
+    <Content Include="assets\libs\cocos2d\resources\progress-bar-empty.png" />
+    <Content Include="assets\libs\cocos2d\resources\progress-bar-full.png" />
+    <Content Include="assets\UpButton_sel.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.all.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.base.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="css\media.css" />
+    <Content Include="css\site.css" />
+    <Content Include="GenericErrorPage.html" />
+    <Content Include="humans.txt" />
+    <Content Include="js\cocos2d.js" />
+    <Content Include="img\resources\progress-bar-empty.png" />
+    <Content Include="img\resources\progress-bar-full.png" />
+    <Content Include="js\cocos2d\ActionManager.js" />
+    <Content Include="js\cocos2d\actions\Action.js" />
+    <Content Include="js\cocos2d\actions\ActionEase.js" />
+    <Content Include="js\cocos2d\actions\ActionInstant.js" />
+    <Content Include="js\cocos2d\actions\ActionInterval.js" />
+    <Content Include="js\cocos2d\actions\index.js" />
+    <Content Include="js\cocos2d\Animation.js" />
+    <Content Include="js\cocos2d\AnimationCache.js" />
+    <Content Include="js\cocos2d\config.js" />
+    <Content Include="js\cocos2d\Director.js" />
+    <Content Include="js\cocos2d\EventDispatcher.js" />
+    <Content Include="js\cocos2d\globals.js" />
+    <Content Include="js\cocos2d\index.js" />
+    <Content Include="js\cocos2d\init.js" />
+    <Content Include="js\cocos2d\libs\base64.js" />
+    <Content Include="js\cocos2d\libs\bobject.js" />
+    <Content Include="js\cocos2d\libs\box2d.js" />
+    <Content Include="js\cocos2d\libs\geometry.js" />
+    <Content Include="js\cocos2d\libs\gzip.js" />
+    <Content Include="js\cocos2d\libs\JXGUtil.js" />
+    <Content Include="js\cocos2d\libs\Plist.js" />
+    <Content Include="js\cocos2d\libs\qunit.js" />
+    <Content Include="js\cocos2d\libs\util.js" />
+    <Content Include="js\cocos2d\nodes\AtlasNode.js" />
+    <Content Include="js\cocos2d\nodes\BatchNode.js" />
+    <Content Include="js\cocos2d\nodes\index.js" />
+    <Content Include="js\cocos2d\nodes\Label.js" />
+    <Content Include="js\cocos2d\nodes\LabelAtlas.js" />
+    <Content Include="js\cocos2d\nodes\Layer.js" />
+    <Content Include="js\cocos2d\nodes\Menu.js" />
+    <Content Include="js\cocos2d\nodes\MenuItem.js" />
+    <Content Include="js\cocos2d\nodes\Node.js" />
+    <Content Include="js\cocos2d\nodes\PreloadScene.js" />
+    <Content Include="js\cocos2d\nodes\ProgressBar.js" />
+    <Content Include="js\cocos2d\nodes\RenderTexture.js" />
+    <Content Include="js\cocos2d\nodes\Scene.js" />
+    <Content Include="js\cocos2d\nodes\Sprite.js" />
+    <Content Include="js\cocos2d\nodes\TMXLayer.js" />
+    <Content Include="js\cocos2d\nodes\TMXTiledMap.js" />
+    <Content Include="js\cocos2d\nodes\Transition.js" />
+    <Content Include="js\cocos2d\Preloader.js" />
+    <Content Include="js\cocos2d\resources\progress-bar-empty.png" />
+    <Content Include="js\cocos2d\resources\progress-bar-full.png" />
+    <Content Include="js\cocos2d\Scheduler.js" />
+    <Content Include="js\cocos2d\SpriteFrame.js" />
+    <Content Include="js\cocos2d\SpriteFrameCache.js" />
+    <Content Include="js\cocos2d\Texture2D.js" />
+    <Content Include="js\cocos2d\TextureAtlas.js" />
+    <Content Include="js\cocos2d\TMXOrientation.js" />
+    <Content Include="js\cocos2d\TMXXMLParser.js" />
+    <Content Include="js\cocos2d_Physical\index.js" />
+    <Content Include="js\cocos2d_Physical\PhysicalShapeBox.js" />
+    <Content Include="js\cocos2d_Physical\PhysicalShapePolygon.js" />
+    <Content Include="js\cocos2d_Physical\PhysicalShapeCircle.js" />
+    <Content Include="js\cocos2d_Physical\PhysicalShape.js" />
+    <Content Include="js\cocos2d_Physical\PhysicalNode.js" />
+    <Content Include="js\cocos2d_Physical\PhysicalLayer.js" />
+    <Content Include="js\game\libs\Ground.js" />
+    <Content Include="js\game\libs\LegoMan.js" />
+    <Content Include="js\game\libs\AnimatedSprite.js" />
+    <Content Include="js\game\src\main.js" />
+    <Content Include="js\game\libs\GreenItem.js" />
+    <Content Include="js\game\src\Main_2.js" />
+    <Content Include="js\game\libs\Scene1.js" />
+    <Content Include="js\game\libs\TestObj.js" />
+    <Content Include="js\jah.js" />
+    <Content Include="js\libs\excanvas.compiled.js" />
+    <Content Include="js\libs\excanvas.js" />
+    <Content Include="js\game\public\index.html" />
+    <Content Include="js\game\src\main_1.js" />
+    <Content Include="js\libs\pie\PIE.htc" />
+    <Content Include="js\libs\pie\PIE.js" />
+    <Content Include="js\libs\pie\PIE.php" />
+    <Content Include="js\libs\pie\PIE_uncompressed.htc" />
+    <Content Include="js\libs\pie\PIE_uncompressed.js" />
+    <Content Include="js\libs\respond.min.js" />
+    <Content Include="js\libs\modernizr-2.0.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\mylibs\Helloworld.js" />
+    <Content Include="js\mylibs\Namespace.js" />
+    <Content Include="js\mylibs\Test.js" />
+    <Content Include="js\mylibs\Using.js" />
+    <Content Include="js\Primitives.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\TestLibs\Helloworld.js" />
+    <Content Include="packages.config" />
+    <None Include="js\game\src\config.json" />
+    <None Include="test\index.html" />
+    <None Include="test\qunit\qunit.css" />
+    <None Include="test\qunit\qunit.js" />
+    <None Include="test\tests.js" />
+    <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.16.js" />
+    <Content Include="Scripts\jquery-ui-1.8.16.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="crossdomain.xml" />
+    <Content Include="css\normalize.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="js\libs\dd_belatedpng.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="robots.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_LogOnPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutClean.cshtml" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Lib\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <Target Name="AfterBuild">
+  </Target>
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65059</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Content Include="welcome.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Downloads\jetheredge-SquishIt-v0.8.3-0-g3407f94\jetheredge-SquishIt-3407f94\SquishIt.Framework\SquishIt.Framework.csproj">
+      <Project>{50C3BC24-E534-4B78-8E8E-CB2C4053321D}</Project>
+      <Name>SquishIt.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

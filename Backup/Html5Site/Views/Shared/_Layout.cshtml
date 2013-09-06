@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutClean.cshtml";
+    
+}
+@section HeadContent {
+    @RenderSection("HeadContent", false) 
+}
+@section HeaderContent {
+    <div id="title">
+        <h1>MotherEffin HTML5 App</h1>
+    </div>
+
+    <div id="logindisplay">
+        &nbsp;
+        @* We aren't requiring a log on, put something here if you want one. *@                
+    </div>
+
+    <div id="menucontainer">
+        <ul id="menu">
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("About", "About", "Home")</li>
+        </ul>
+
+    </div>
+    @RenderSection("HeaderContent", false) 
+}
+@section FooterContent {
+    @RenderSection("FooterContent", false) 
+}
+@section ScriptSection {
+    @RenderSection("ScriptSection", false) 
+}
+
+@RenderBody() 

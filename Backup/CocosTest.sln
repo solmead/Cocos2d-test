@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html5Site", "Html5Site\Html5Site.csproj", "{12520F34-500F-4765-B2E3-9FD76C729904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquishIt.Framework", "..\..\..\..\Downloads\jetheredge-SquishIt-v0.8.3-0-g3407f94\jetheredge-SquishIt-3407f94\SquishIt.Framework\SquishIt.Framework.csproj", "{50C3BC24-E534-4B78-8E8E-CB2C4053321D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12520F34-500F-4765-B2E3-9FD76C729904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12520F34-500F-4765-B2E3-9FD76C729904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12520F34-500F-4765-B2E3-9FD76C729904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12520F34-500F-4765-B2E3-9FD76C729904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C3BC24-E534-4B78-8E8E-CB2C4053321D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C3BC24-E534-4B78-8E8E-CB2C4053321D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C3BC24-E534-4B78-8E8E-CB2C4053321D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C3BC24-E534-4B78-8E8E-CB2C4053321D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

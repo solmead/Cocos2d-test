@@ -1,0 +1,54 @@
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\obj\Debug\TestMvcAzureHtml5Site.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\TestMvcAzureHtml5Site.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\TestMvcAzureHtml5Site.pdb
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\DataHandling.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\SquishIt.Framework.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\Krystalware.UploadHelper.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\LinqDynamic.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\AjaxMin.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\Yahoo.Yui.Compressor.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\EcmaScript.NET.modified.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\DataHandling.pdb
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\DataHandling.xml
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\LinqDynamic.pdb
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\LinqDynamic.xml
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\obj\Debug\TestMvcAzureHtml5Site.pdb
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\EntityFramework.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\RouteMagic.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\EntityFramework.xml
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\closure-compiler\compiler.jar
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\closure-compiler\COPYING
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\closure-compiler\README
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\Jurassic.dll
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\SquishIt.Framework.pdb
+C:\Users\cpowell\Documents\Visual Studio 2010\Projects\CocosTest\Html5Site\bin\AjaxMin.pdb
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\TestMvcAzureHtml5Site.dll
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\TestMvcAzureHtml5Site.pdb
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\DataHandling.dll
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\EntityFramework.dll
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\RouteMagic.dll
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\Krystalware.UploadHelper.dll
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\LinqDynamic.dll
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\DataHandling.pdb
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\DataHandling.xml
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\EntityFramework.xml
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\LinqDynamic.pdb
+C:\Programming\Personal Projects\CocosTest\Html5Site\bin\LinqDynamic.xml
+C:\Programming\Personal Projects\CocosTest\Html5Site\obj\Debug\Html5Site.csprojResolveAssemblyReference.cache
+C:\Programming\Personal Projects\CocosTest\Html5Site\obj\Debug\TestMvcAzureHtml5Site.dll
+C:\Programming\Personal Projects\CocosTest\Html5Site\obj\Debug\TestMvcAzureHtml5Site.pdb
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\TestMvcAzureHtml5Site.dll
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\TestMvcAzureHtml5Site.pdb
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\EntityFramework.dll
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\RouteMagic.dll
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\Krystalware.UploadHelper.dll
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\LinqDynamic.dll
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\DataHandling.pdb
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\DataHandling.xml
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\EntityFramework.xml
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\LinqDynamic.pdb
+C:\Development\Personal Projects\CocosTest\Html5Site\bin\LinqDynamic.xml
+C:\Development\Personal Projects\CocosTest\Html5Site\obj\Debug\Html5Site.csprojResolveAssemblyReference.cache
+C:\Development\Personal Projects\CocosTest\Html5Site\obj\Debug\TestMvcAzureHtml5Site.dll
+C:\Development\Personal Projects\CocosTest\Html5Site\obj\Debug\TestMvcAzureHtml5Site.pdb
